@@ -24,5 +24,6 @@ To contribute a new email template to this repository, please ensure the followi
 
 - Review how the [`blastula`](https://github.com/rich-iannone/blastula) package works for correct syntax
 - Add your new template to the `templates/` folder. Ensure any variables referenced with `{}` are collected in the `config.R` file
-- Edit the `generate_email()` function so that your template is accepted by `match.args` as a valid value for `message`
-- Edit the `create_subject()` function so that your template triggers a valid email subject
+- Making the following edits to `email-fx.R`:
+    + Ensure the `generate_email()` function so that your template is accepted by `match.args` as a valid value for `message`
+    + Add to the `switch()` statement in the `create_subject()` function so that your template triggers a valid email subject
