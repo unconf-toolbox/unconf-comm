@@ -27,3 +27,7 @@ To contribute a new email template to this repository, please ensure the followi
 - Making the following edits to `email-fx.R`:
     + Ensure the `generate_email()` function so that your template is accepted by `match.args` as a valid value for `message`
     + Add to the `switch()` statement in the `create_subject()` function so that your template triggers a valid email subject
+- Add an example of your template's output to the `examples/` folder by doing the following (which will also check that you did the prior steps correctly!):
+    + Run `generate_email("Test name", {{your template name}})` 
+    + Save the `html_html` list element of the results in an HTML file in the `examples/` folder
+- Update the "Repo overview" seciton of the `README` to include your new template
