@@ -4,6 +4,7 @@ button <- add_cta_button("google.com", "Click Here", align = "center")
 event_name <- "Chicago R Unconference"
 event_loc <- "The XXX Building on the YYY Campus (123 N Street)"
 event_link <- "https://chirunconf.github.io"
+event_email <- "chirunconf@gmail.com"
 
 date_event <- "the weekend of March 9-10"
 date_appl <- "5PM on March 10th"

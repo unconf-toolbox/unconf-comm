@@ -11,7 +11,22 @@ send_to <- data.frame(
   stringsAsFactors = FALSE
 )
 
+# generate emails ----
 emails <- map2( send_to$name, send_to$message, generate_email )
 
+# check a couple of emails for quality control ----
 preview_email(emails[[1]])
 preview_email(emails[[2]])
+
+
+# send emails ----
+# this step will depend on your specific email set-up!
+# see https://github.com/rich-iannone/blastula for the most up-to-date set-up information
+
+pwalk( 
+  list(email_object = emails,
+       email_to, send_to$email,
+       subject = create_subject(send_to$message)),
+  send_email,
+  email_from = event_email
+  )
