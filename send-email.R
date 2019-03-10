@@ -1,7 +1,7 @@
 library(blastula)
 library(purrr)
 source("config.R")
-source("generate_email.R")
+source("email-fx.R")
 
 # sample data (obviously point to yours!) ----
 send_to <- data.frame(
