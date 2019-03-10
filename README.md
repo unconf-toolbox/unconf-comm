@@ -22,9 +22,9 @@ Files you shouldn't have to change:
 
 Examples of resulting email templates are linked below:
 
-- [Applications Open](docs/apply-ex.html)
-- [Application Approved](docs/accept-ex.html)
-- [Application Decline](docs/decline-ex.html)
+- [Applications Open](https://unconf-toolbox.github.io/unconf-comm/apply-ex.html)
+- [Application Approved](https://unconf-toolbox.github.io/unconf-comm/accept-ex.html)
+- [Application Decline](https://unconf-toolbox.github.io/unconf-comm/decline-ex.html)
 
 ## Contributing
 
