@@ -1,0 +1,15 @@
+Hi {name},
+
+Thank you for applying to the {event_name}.
+
+Unfortunately, our applicant field was very competitive, and due to space and budget limitations, we are not able to take all qualified applicants. 
+
+If you would like to stay on a waitlist for the event, please consider joining the waitlist. 
+
+{button_wait}
+
+Otherwise, please keep us in mind and consider reapplying next year.
+
+All the best,
+
+*{event_name} Organizing Committee*

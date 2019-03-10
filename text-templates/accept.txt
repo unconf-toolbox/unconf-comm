@@ -1,0 +1,11 @@
+Hi {name},
+
+Congratulations! Your application has been accepted for the {event_name}.
+
+Please recall that {event_name} will be held at **{event_loc}** on **{date_event}**. We will follow up with more details closer to the event, but in the meantime, please RSVP below by **{date_rsvp}**.
+
+{button_rsvp}
+
+We look forward to seeing you soon!
+
+*{event_name} Organizing Committee*

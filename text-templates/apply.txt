@@ -1,0 +1,11 @@
+Hi {name},
+
+Thank you for your interest in applying to {event_name}, coming up at **{event_loc}** on **{date_event}**.
+
+We are happy to announce that applications are now open! Please apply before **{date_appl}**.
+
+{button_appl}
+
+We'll be on the lookout for your application!
+
+{event_name} Organizing Committee
